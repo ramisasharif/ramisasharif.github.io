@@ -1,25 +1,42 @@
+.col3 {
+    width: 10px;
+    height: auto;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
 /* original color */
-body {
-    background-color: white;
+.full-height {
+    background-color: #D4F9CC;
     color: black;
+    min-height: 100vh;
 }
 
 .box {
     height: 200px;
     width: 1300px;
-    background-color: grey;
+    background-color: #D4F9CC;
+    border: 1px solid black;
 }
 
 .navbar {
     height: 60px;
+    color: black;
+    background-color: #D4F9CC;
+}
+
+.navbar a {
     color: black;
 }
 
 .littleBox1, .littleBox2, .littleBox3, .littleBox4 {
     height: 300px;
     width: 400px;
-    background-color: grey;
-    border: black;
+    background-color: #D4F9CC;
+    border: 1px solid black;
 }
 
 .col-4 {
@@ -27,38 +44,38 @@ body {
 }
 
 /* everything after this is dark mode */
-.dark-mode body {
-    background-color: black;
+.dark-mode .full-height {
+    background-color: #48ba3b;
     color: white;
 }
 
 .dark-mode .box{
-    background-color: #333333;
+    background-color: #48ba3b;
     color: white;
 }
 
 .dark-mode .littleBox1{
-    background-color: #333333;
+    background-color: #48ba3b;
     color: white;
 }
 
 .dark-mode .littleBox2{
-    background-color: #333333;
+    background-color: #48ba3b;
     color: white;
 }
 
 .dark-mode .littleBox3{
-    background-color: #333333;
+    background-color: #48ba3b;
     color: white;
 }
 
 .dark-mode .littleBox4{
-    background-color: #333333;
+    background-color: #48ba3b;
     color: white;
 }
 
 .dark-mode .navbar {
-    background-color: #222222;
+    background-color: #48ba3b;
     color: white;
 }
 
