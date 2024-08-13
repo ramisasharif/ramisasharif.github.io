@@ -1,0 +1,65 @@
+/* original color */
+.full-height {
+    background-color: #D4F9CC;
+    color: black;
+    min-height: 100vh;
+}
+
+.navbar {
+    height: 60px;
+    color: black;
+    background-color:#D4F9CC;
+}
+
+.navbar a {
+    color: black;
+}
+
+h5{
+    color: black;
+    background-color: #D4F9CC;  
+}
+
+h4{
+    color: black;
+    background-color: #D4F9CC;
+}
+
+ul{
+    color: black;
+    background-color: #D4F9CC;
+}
+
+a {
+    color: black;
+}
+
+/* everything after this is dark mode */
+.dark-mode .full-height {
+    background-color: #48ba3b;
+    color: white;
+}
+
+.dark-mode h5{
+    background-color: #48ba3b;
+    color: white;
+}
+
+.dark-mode h4{
+    background-color: #48ba3b;
+    color: white;
+}
+
+.dark-mode ul{
+    background-color: #48ba3b;
+    color: white;
+}
+
+.dark-mode .navbar {
+    background-color: #48ba3b;
+    color: white;
+}
+
+.dark-mode .navbar a {
+    color: white;
+}
